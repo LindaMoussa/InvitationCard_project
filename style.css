@@ -1,0 +1,241 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    transition-timing-function: ease-in-out;
+    overflow-x: hidden;    
+}
+nav {
+    border-color: rgba(1,1,1,0.2);
+}
+nav a{
+    font-weight: 400;
+    letter-spacing: .8px;
+    font-size: 13px;
+}
+nav .logo a
+{
+    text-decoration: none;
+}
+nav span ,.dot{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #6c6c6c;
+}
+.dot{
+    color: aqua;
+}
+.social-media i{
+    font-size: 15px;
+}
+.bgimg{
+    background-attachment: fixed;
+}
+.overlay{   
+    top: 0;
+    left:0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+.slider-caption{
+    bottom: 40%;
+}
+.slider-caption h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+.slider-caption p{
+    font-size: 18px;
+    font-weight: 500;        
+}
+section p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight:lighter;
+    color: #787878;
+    opacity: 0.8;
+}
+.nav-pills .nav-link{
+    color: #1f1f1f;
+    font-size: 13px;  
+}
+.nav-pills .nav-link.active{
+    background-color: #fff !important;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.tab-pane.fade.show{
+    font-family: 'Source Sans Pro', sans-serif;    
+    color: #787878;
+}
+.tab-content button{
+    font-size: 13px;
+}
+section h3{
+    font-size: 36px;
+    font-weight: 900;
+}
+.p-thinkers{
+    font-size: 20px;
+}
+.team-col{
+    overflow: hidden
+}
+.overlay2{
+    top: 100%;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 195, 218, 0.8);
+    transition: .5s all;
+}
+.team-col:hover .overlay2{
+    top:0;
+}
+.team-col .social-links{
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.team-col .team-info{
+    bottom: 0;   
+    opacity: 0;
+}
+.team-info h6{
+    font-weight: 600;
+}
+.team-info p{
+    color: #fff;
+    font-size: 15px;
+}
+.team-col .social-links i{
+    color:#fff;
+}
+.team-col:hover .social-links{
+    opacity: 1;  
+}
+.team-col:hover .team-info{
+    opacity: 1;  
+}
+.bg-img{
+    background-image: url(images/bg-image-26.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: auto;   
+}
+.animated-icon.white svg, .animated-icon.white svg * {
+    stroke: #fff;
+}
+.overlay3{
+    top: 0;
+    left:0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.bg-img p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.bg-img h2{
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+}
+.bg-img p.whatwedo{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+.bg-img li i{
+    border-color: black;
+    font-size: 10px;
+}
+.our-works{
+    height: auto;
+}
+.our-works h3{
+    overflow: hidden;
+}
+.our-works p.p-works {
+    border-bottom: 1px black solid;
+    width:3% ;
+    transition: .25s all;
+}
+.our-works p.p-works:hover{
+    width: 7%;
+}
+.our-works a{
+    color: black;
+}
+.nav-tabs .nav-link:hover{
+    border-color: transparent;
+}
+.nav-tabs .nav-link.active:hover{
+    border-color: #00c3da;
+}
+.our-works .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #00c3da;
+    background-color: #fff;
+    border-color: #00c3da;
+    border-radius: 50px;
+}
+.work-item {
+    overflow: hidden;
+}
+.work-item img{
+    transition: all .8s linear;
+}
+.item-caption{
+    font-family: 'Poppins', sans-serif;
+    bottom:-5%;
+    left:25%;
+    opacity: 0;
+    transition: all .4s linear;
+}
+.item-caption h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.item-caption p.p-caption{
+    color: #787878;
+    font-weight: 500;
+    font-size: 16px;
+}
+.our-works .work-item:hover img{
+    transform: scale(1.2);
+}
+.our-works .work-item:hover .item-caption{
+    opacity: 1;
+    bottom: 5%;
+}
+.prices h2{
+    font-size: 55px;
+}
+.prices span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.prices p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #787878;
+}
+.prices .p-title{
+    font-size: 18px;
+}
+.special{
+    color: #00c3da;
+
+}
+span.bestvalue{
+    font-size: 12px;
+}
+.cust-img{
+    top:-25%;
+    left:40%;
+    width: 15%;
+}
