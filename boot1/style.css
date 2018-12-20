@@ -10,6 +10,13 @@ body{
 nav {
     border-color: rgba(1,1,1,0.2);
 }
+.bg-mine{
+  position: fixed;
+   width: 100%;
+    z-index: 522295;
+    
+    
+}
 nav a{
     font-weight: 400;
     letter-spacing: .8px;
@@ -389,4 +396,8 @@ span.bestvalue{
     cursor: pointer;
     
 }
-  
+.map img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
