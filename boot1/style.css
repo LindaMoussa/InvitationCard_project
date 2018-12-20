@@ -1,4 +1,7 @@
+*{
+     transition:all 1s;
 
+}
 body{
     font-family: 'Poppins', sans-serif;
     transition-timing-function: ease-in-out;
@@ -239,3 +242,151 @@ span.bestvalue{
     left:40%;
     width: 15%;
 }
+  .products .product-title h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(120, 120, 120);
+}
+    .products .product-title h2{
+    position: relative;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.products .product-title h2:after{
+    content:"Our Works";
+    position: absolute;
+    top: 40%;
+    left:15%;
+    color:#1f1f1f;
+    font-weight: 600;
+    font-size: 40px;
+    width: 70%;
+    
+}
+.products .product-title h2:before{
+    content:"";
+    height: 1px;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 150%;
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 40px;
+    width: 4%;
+    transition: all 1s;
+}
+.products .product-title h2:hover:before{
+    content:"";
+    height: 1px;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 150%;
+    left: 45%;
+    font-weight: 600;
+    font-size: 40px;
+    width: 8%;
+    cursor: pointer;
+    
+}
+.products .product-member .nav-pills .nav-link {
+    color: #1f1f1f;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;  
+  
+}
+.products .product-member .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #00c3da;
+    border:1px solid #00c3da;
+    border-radius: 50px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.products .product-member .member-container{
+    overflow: hidden;
+}
+.products .product-member .member{
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+
+}
+.products .product-member .member:hover img{
+    transform: scale(1.1,1.1);
+}
+.products .product-member .member .member-caption{
+    opacity: 0;
+    position: absolute;
+    top:70%;
+    left:10%;
+    transition:all 1s;
+    transition-delay: 0.5s;
+}
+
+.products .product-member .member:hover .member-caption{
+    opacity: 1;
+}
+
+.products .product-member .member .member-caption h3{
+    opacity: 0;
+    transition-delay: 1s;
+}
+.products .product-member .member .member-caption p{
+    opacity:0;
+    transition-delay: 1.5s;
+}
+
+.products .product-member .member:hover .member-caption h3{
+    opacity: 1;
+}
+.products .product-member .member:hover .member-caption p{
+    opacity:1;
+}
+@media (max-width:850px){
+        .products .product-member .nav-layout {
+    width: 100%;
+         
+}
+    .products .product-member .nav-layout .nav{
+        flex: auto;
+        justify-content: space-around;
+    }
+    .products .product-member .nav-pills .nav-item {
+    width: 30%;
+        
+}
+    .products .product-title h2:before{
+    content:"";
+    height: 1px;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 150%;
+    font-weight: 600;
+    font-size: 40px;
+    width: 8%;
+    transition: all 1s;
+}
+.products .product-title h2:hover:before{
+    content:"";
+    height: 1px;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    font-weight: 600;
+    font-size: 40px;
+    width: 16%;
+    cursor: pointer;
+    
+}
+  
